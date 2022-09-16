@@ -1,5 +1,5 @@
 # CSC309 Tutorials
-Welcome to the CSC309 tutorials. In four weeks, we are going to build a simple two page website. You will learn about HTML, CSS, JS, jQuery and APIs. Please refer to the links below for more information.
+Welcome to the CSC309 tutorials. In four weeks, we are going to build a simple two pages website. You will learn about HTML, CSS, JS, jQuery and APIs. Please refer to the links below for more information.
 
 ## Contents:
 1. [Week 1: HTML](/Week1-HTML)
