@@ -6,12 +6,63 @@
 
 <!-- TODO: Order the HTML tags -->
 
-<header></header>
-<footer></footer>
-<form></form>
-<head></head>
-<body></body>
-<nav></nav>
 <!DOCTYPE html>
-<div id='content'></div>
 <html lang="en"></html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>ABC Cabinets</title>
+
+
+</head>
+<header></header>
+<body>
+    <h1>ABC Cabinet</h1>
+    <hr>
+    <nav>
+        <h3>Navigation</h3>
+    <a href='main.html' class="btn btn-primary">Main Page</a>
+    <a href='order.html' class="btn btn-primary">Order Page</a>
+    </nav>
+    <hr>
+    <form>
+        <h3>Order Form</h3>
+        <label for="name">Name: </label><br/>
+        <input type='text' id='name' name='name' placeholder="Enter name"><br/><br/>
+
+        <a>Address: </a><br>
+<textarea id="address" name="address" rows="5" cols="33"></textarea>
+<hr>
+<a>Method of payment: </a><br/>
+<input type='radio' id='paymentA' name='paymentA' value='Amex'>
+<label for="paymentA">Amex</label><br/>
+<input type='radio' id='paymentV' name='paymentV' value='Visa'>
+<label for="paymentV">Visa</label><br/>
+<input type='radio' id='paymentMC' name='paymentMC' value='MasterCard'>
+<label for="paymentMC">MasterCard</label><br/>
+
+<a>Credit Card #: </a> <input type='text' id='creditCard' name='creditCard'><br/>
+<a>Items: </a><br/>
+
+<input type="checkbox" id="drawer" name="drawer" value="drawer">
+<label for="drawer">Drawer $20.00</label><br/>
+
+<input type="checkbox" id="single" name="single" value="single">
+<label for="single">Single Cabinet $30.00</label><br/>
+<input type="checkbox" id="double" name="double" value="double">
+<label for="double">Double Cabinet $50.00</label><br/>
+<a>Colour: </a>
+<select>
+    <option value="red">Red</option>
+    <option value="black">Black</option>
+    <option value="blue">Blue</option>
+    <option value="white">White</option>
+    <option value="green">Green</option>
+</select>
+<br>
+<input type="reset" />
+<input type="submit" />
+    </form>
+    <div id='content'></div>
+    <footer></footer>
+</body>
