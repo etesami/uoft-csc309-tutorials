@@ -18,4 +18,4 @@ This section is similar to section 1. You will work on `section3.html` and order
 Like section 2, you now use `section4.html` file and try to find the best place in `section3.html` to put contents.
 
 ---
-<p style="font-size:0.5em;">Author: [EHSAN Etesami](https://etesami.github.io), Fall 2022.</p>
+<p style="font-size:0.6rem;">Author: EHSAN Etesami, Fall 2022.</p>
