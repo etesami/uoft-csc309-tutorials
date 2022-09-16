@@ -8,4 +8,4 @@ Welcome to the CSC309 tutorials. In four weeks, we are going to build a simple t
 4. Week 4: JS, jQuery, API
 
 ---
-<span style="font-size:0.5em;"> Author: [EHSAN Etesami](https://etesami.github.io), Fall 2022.</span>
+<p style="font-size:0.5em;">Author: [EHSAN Etesami](https://etesami.github.io), Fall 2022.</p>
