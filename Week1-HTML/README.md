@@ -19,5 +19,4 @@ Like section 2, you now use `section4.html` file and try to find the best place 
 
 ---
 
-<small>Author: EHSAN Etesami, Fall 2022.</small>
-<footnote>Author: EHSAN Etesami, Fall 2022.</footnote>
+Fall 2022, CSC309 Tutorial

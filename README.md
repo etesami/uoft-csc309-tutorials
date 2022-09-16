@@ -8,4 +8,5 @@ Welcome to the CSC309 tutorials. In four weeks, we are going to build a simple t
 4. Week 4: JS, jQuery, API
 
 ---
-<small>Author: EHSAN Etesami, Fall 2022.</small>
+
+Fall 2022, CSC309 Tutorial
