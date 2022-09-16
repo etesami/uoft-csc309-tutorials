@@ -1,8 +1,10 @@
 # CSC309 Tutorials: Week 1 (HTML)
-Welcome to the CSC309 tutorials week 1. In this exercise, we will build a simple two pages website in four sections. The goal is to have a website like the image below after the end of week 2. This week, you work only on building the structure of the page and its contents. The next week we will start working on style.  
+Welcome to the CSC309 tutorials week 1. In this exercise, we will build a simple two pages website in four sections. At the end of this tutorial you will have a website similar to figure 1. The goal is to have a website similar to figure 2 below after the end of week 2. This week, you work only on building the structure of the page and its contents. The next week we will start working on style.  
 
 
-<p align="center"><img src="/images/week1-main.png" alt="main page" width="40%"/> <img src="/images/week1-order.png" alt="main page" width="40%"/></p>
+<p align="center"><img src="/images/week1-main.png" alt="main page" width="40%"/> <img src="/images/week1-order.png" alt="main page" width="40%"/><br/>Figure 1: Your website at the end of week 1 session should look like this.</p>
+
+<p align="center"><img src="/images/week2-main.png" alt="main page" width="40%"/> <img src="/images/week2-order.png" alt="main page" width="40%"/><br/>Figure 2: Your website at the end of week 1 session should look like this.</p>
 
 ---
 ### Section 1: Building the structure of the main page
