@@ -18,4 +18,6 @@ This section is similar to section 1. You will work on `section3.html` and order
 Like section 2, you now use `section4.html` file and try to find the best place in `section3.html` to put contents.
 
 ---
+
 <small>Author: EHSAN Etesami, Fall 2022.</small>
+<footnote>Author: EHSAN Etesami, Fall 2022.</footnote>
