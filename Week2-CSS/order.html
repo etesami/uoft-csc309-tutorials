@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>ABC Cabinets</title>
+
+    <!-- TODO: The very first thing we need to do is to tell the HTML document that we have some CSS rules 
+      we want it to use. There is file in the same folder as this HTML document named style.css. The ".css" 
+      extension shows that this is a CSS file. Use the <link> tag to import the local CSS file. The other 
+      file is the Bootstrap CSS file which we import it from this address: 
+      https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css. 
+      Use the same HTML tag but link to this address instead. -->
+    <link>
+    <link>
+    
+  </head>
+
+  <body>
+    <header>
+      <h1>ABC Cabinet</h1>
+      <hr/>
+      <nav>
+        <h3>Navigation</h3>
+        <!-- TODO: Instead of manually writing CSS rules, for these two link, we would like to use pre-written 
+        rules from the bootstrap CSS file. Find the appropriate class name for that can be used to change the 
+        style of links below according to the screenshots. 
+        Look at here: https://getbootstrap.com/docs/4.0/components/buttons/ -->
+        <a href='main.html' class="">Main Page</a>
+        <a href='order.html' class="">Order Page</a>
+      </nav>
+    </header>
+
+    <hr>
+    <div id='content'>
+      <h3>Order Form</h3>
+    
+      <form>
+        <!-- TODO: We have grouped the related fields and labels together inside <div> tags. Now, for each <div> 
+          tag add the class "form-group". The style should be applied from the boootstrap CSS file you have already linked. -->
+        <div>
+          <label for="name">Name: </label><br/>
+          <input type='text' id='name' name='name' placeholder="Enter name"><br/><br/>
+          <a>Address: </a><br>
+          <textarea id="address" name="address" rows="5" cols="33"></textarea>
+        </div>
+
+        <div>
+          <a>Method of payment: </a><br/>
+          <input type='radio' id='paymentA' name='paymentA' value='Amex'>
+          <label for="paymentA">Amex</label><br/>
+          <input type='radio' id='paymentV' name='paymentV' value='Visa'>
+          <label for="paymentV">Visa</label><br/>
+          <input type='radio' id='paymentMC' name='paymentMC' value='MasterCard'>
+          <label for="paymentMC">MasterCard</label><br/>
+          <a>Credit Card #: </a> <input type='text' id='creditCard' name='creditCard'><br/>
+        </div>
+        
+        <div>
+          <a>Items: </a><br/>
+          <input type="checkbox" id="single" name="single" value="single">
+          <label for="single">Single Cabinet $30.00</label><br/>
+          <input type="checkbox" id="double" name="double" value="double">
+          <label for="drawer">Drawer $20.00</label><br/>
+          <input type="checkbox" id="drawer" name="drawer" value="drawer">
+          <label for="double">Double Cabinet $50.00</label><br/>
+        </div>
+        
+        <div>
+          <a>Colour: </a>
+          <select>
+            <option value="black">Black</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+            <option value="red">Red</option>
+            <option value="white">White</option>
+          </select>
+        </div>
+
+        <div>
+          <input type="reset" />
+          <input type="submit" />
+        </div>
+
+      </form>
+    </div>
+  </body>
+</html>
+
+
+
+
