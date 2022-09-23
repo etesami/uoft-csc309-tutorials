@@ -1,0 +1,52 @@
+
+/* TODO: Use padding property to set the padding area on all four sides of the page. 
+  Try using percentages to have a responsive design when the screen size changes.  */
+
+body {
+  padding: ;
+}
+
+/* TODO: Please take a look at this page: https://css-tricks.com/snippets/css/a-guide-to-flexbox/. 
+  Then try to find appropriate values for the following properties. Make sure you try other values 
+  as explained on the README page of this week. */
+.container-flex {
+  display: ;
+  margin: ;
+  gap: ; 
+  flex-flow: ;
+  align-items: ;
+  justify-content: ;
+}
+
+/* TODO: Please take a look at this page: https://css-tricks.com/snippets/css/a-guide-to-flexbox/. 
+  Then try to find appropriate values for the following properties. Make sure you try other values 
+  as explained on the README page of this week. */
+.container-flex .flex-item {
+  border: ;
+  flex-basis: ;
+}
+
+/* TODO: Have you noticed that the text is too close to the right of each flex-item box? 
+  Find a property that can make some spaces there. */
+.item-description ul li {
+  
+}
+
+
+/* Table related css rules. Look at the screenshots and try to build the same style. */
+.item-tables {
+  border: ;
+}
+
+.item-tables tr th {
+  border-bottom: ;
+}
+
+.item-tables tr td {
+  border: ;
+}
+
+/* TODO:  Look at the table's cells carefully, especially the spaces around the texts within each cell. Write appropriate rules that provide some spaces around the text of each cell. */
+.item-tables p {
+
+}
