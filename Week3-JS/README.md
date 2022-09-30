@@ -48,7 +48,7 @@ iceCream === 'chocolate') ? alert('Yay!') : alert('Awwww')
 
 // Loops
 let myArray = [1,2,3,4,5,6,7,8,9]
-for (item of myArray){
+for (let item of myArray){
   console.log(item);
 }
 for (let i = 0; i < myArray.length; i++) {
