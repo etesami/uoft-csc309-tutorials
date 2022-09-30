@@ -1,4 +1,4 @@
-# CSC309 Tutorials: Week 2 (CSS)
+# CSC309 Tutorials: Week 3 (JavaScript)
 Welcome to the CSC309 tutorials week 3. This week, we will use JavaScript to manipulate web pages. On the `main.html` page, when you click on the `Adjust!` button, the minimum height of all images is found. Then the height of all other images is set to this value. In addition, when the mouse enters any block with class `flex-item`, the border and product name colour change to a random colour. On the `order.html` page, once a user clicks on the checkboxes to select items, the total costs of their selection and their name will be displayed in a message box.
 
 <p align="center"><img src="../images/week3-output1.gif" alt="main page" width="40%"/> <img src="../images/week3-output2.gif" alt="main page" width="40%"/><br/>Basic functionality of the site at the end of week 3.</p>
