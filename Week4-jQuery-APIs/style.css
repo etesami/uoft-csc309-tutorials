@@ -1,0 +1,100 @@
+
+body {
+  padding: 5% 10%;
+}
+
+.container-flex {
+  display: flex;
+  margin: 5% 0;
+  gap: 1rem 2%; 
+  flex-flow: row wrap;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.container-flex .flex-item {
+  border: 0.1rem solid rgb(202, 202, 202);
+  flex-basis: 25%;
+}
+
+.flex-item img {
+  max-width: 15rem;
+  padding: 1rem;
+}
+
+.flex-item div {
+  padding: 0 0.8rem 0.9rem;
+}
+
+.flex-item .source {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 0.7rem;
+  padding: 0 0.8rem;
+}
+
+.flex-item .item-summary {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 0.9rem;
+}
+
+#alert-box {
+  margin: 0 14rem;
+  display: none;
+}
+
+.flex-item .item-title{
+  padding: 0 0.8rem 0.9rem;
+  font-weight: bold;
+  font-family: Georgia, serif;
+}
+
+.flex-item ul {
+  padding-inline-start: 1.9rem;
+}
+
+.flex-item li.item-category div{
+  margin-right: 0.4rem;
+}
+
+.container-flex-order {
+  display: flex;
+  margin: 5% 0;
+  gap: 1rem 2%; 
+  flex-flow: row wrap;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.container-flex-order .flex-item-order {
+  border: 0.1rem solid rgb(202, 202, 202);
+  flex-basis: 27%;
+  padding: 1rem;
+}
+
+.info-msg {
+  display: none;
+}
+
+.item-description ul li {
+  margin-right: 5%;
+}
+
+
+/* Table related css rules */
+
+.item-tables {
+  border: solid 0.05rem black;
+}
+
+.item-tables tr th {
+  border-bottom: double 0.2rem black;
+}
+
+.item-tables tr td {
+  border: solid 0.01rem blue;
+}
+
+.item-tables p {
+  margin: 0;
+  padding: 0.1rem 0.5rem;;
+}

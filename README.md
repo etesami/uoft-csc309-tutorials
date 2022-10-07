@@ -5,7 +5,7 @@ Welcome to the CSC309 tutorials. In four weeks, we are going to build a simple t
 1. [Week 1: HTML](/Week1-HTML)
 2. [Week 2: CSS](/Week2-CSS)
 3. [Week 3: JS Syntax](/Week3-JS)
-4. Week 4: JS, jQuery, API
+4. [Week 4: JS, jQuery, API](/Week4-jQuery-APIs)
 
 ---
 
