@@ -4,23 +4,23 @@
     Then try to complete the line below to capture all div blocks that
     have the class "flex-item"
 */
-const items = document.getElementsByClassName('flex-item item-description');
-console.log(items);
+const items = document.getElementsByClassName('flex-item');
+
 
 
 /* TODO: Complete the code below to find the minimum height of the <img> 
     element that exists in <div> blocks with "flex-item" class.
 */
-let min_img_height = Infinity; 
-let divs = items.querySelectorAll("div");
-for( div of divs){
-  if (div.height < min_img_height)
+let min_img_height = Infinity;
+for( let item of items){
+  let item_img = item.querySelector("img");
+  if (item_img.height < min_img_height)
   {
-    min_img_height = div.clientHeight;
+    min_img_height = item_img.height;
   }
   
 }
-
+console.log(min_img_height)
 /* TODO: We want to add some functionality to the "Adjust!" button. When 
     a user clicks on the "Adjust!" button, it sets the height of every <img>
     within the <div> block with "flex-item" class to the minimum height you 
@@ -29,12 +29,12 @@ for( div of divs){
 */
 const adjust_btn = document.querySelector("#adjust-btn");
 adjust_btn.onclick = function(){
-  let imgList = divs.querySelector("img")
-    for (img of imgList){
-      img.style.height =min_img_height;
-      img.style["margin-bottom"] = "0.2em";
+    for (let item of items){
+      let item_img = item.querySelector("img");
+      item_img.style.height =min_img_height+"px";
+      item_img.style["margin-bottom"] = "0.1rem";
 
-    
+    console.log("something was clicked: adjust")
   }};
 
 /* TODO: Let's iterate through items again. But now, let's add two event 
@@ -45,7 +45,7 @@ adjust_btn.onclick = function(){
 */
 let colors = ['red', 'blue', 'cyan', 'green', 'orange', 'brown', 'purple'];
 
-for(item of divs){
+for(let item of items){
   /* TODO: For each <div> block add a "mouseenter" event. When the mouse
     enters the block, randomly pick a colour from the array above. You 
     might use Math.floor(), Math.random() functions. Once you pick the 
@@ -54,19 +54,24 @@ for(item of divs){
   */
   item.addEventListener("mouseenter", (event) => {
     let color = colors[0];
-    this.style.color = color;
-    
+    event.target.style.border = "0.1rem solid " + color;
+      let list_item = event.target.querySelector("ul li");
+      list_item.style["color"] = color;
+      list_item.style["font-weight"] = "bold";
       
 
-    });
+    }, false);
   
   /* TODO: For each <div> block add a "mouseleave" event. When the mouse leaves 
       the block, revert all changes (i.e. border colour and font weight) to default.
   */  
   item.addEventListener("mouseleave", (event) => {
-    this.style.color = colors[1]
+    let list_item = event.target.querySelector("ul li");
+    list_item.style["font-weight"] = "normal";
+    list_item.style["color"] = "black";
+    event.target.style.border = "0.1rem solid gray";
 
-  });
+  }, false);
 }
 
 

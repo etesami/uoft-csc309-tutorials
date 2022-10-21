@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>ABC News</title>
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="main.js" defer></script>
+
+  </head>
+  <body>
+    <header><h1>ABC Cabinet</h1></header>
+    <hr/>
+    <nav>
+      <h3>Navigation</h3>
+      <a href='main.html' class="btn btn-primary">Main Page</a>
+      <a href='order.html' class="btn btn-primary">Order Page</a>
+      <a href='#' id="adjust-btn" class="btn btn-info">Adjust!</a>
+    </nav>
+
+    <div id='content'>
+      <hr/>
+      <p>We have some news from the Internet:</p>
+
+      <div id="container-flex" class="container-flex">
+        <div id="p-873" class="flex-item item-description">
+          <img src="https://planetary.s3.amazonaws.com/web/assets/pictures/_768x768_crop_center-center_82_line/612692/neptune-rings.jpg">
+          <div class="item-title">
+            <a href="https://www.planetary.org/space-missions/best-jwst-pictures" target="_blank">
+              The best space pictures from JWST
+            </a>
+          </div>
+          <div class="source">From: Planetary Society</div>
+          <div class="item-update-at">
+            <span class="badge badge-info">2022-10-04</span>
+          </div>
+          <div class="item-summary">
+            The observatory is continuing to deliver a steady stream of beautiful cosmic images.
+          </div>
+        </div>
+        
+      </div>
+      <center>
+        <div id="alert-box" class="alert alert-danger" role="alert"></div>
+        <br/>
+        <a href='' id='load-more' class='btn btn-info'>Load Some News!</a></center>
+    </div>
+
+  <hr/>
+    <footer>
+      <p>©Copyright 2022. All rights reversed.
+      <br/>CSC309, University of Toronto</p>
+    </footer>
+    
+  </body>
+</html>
